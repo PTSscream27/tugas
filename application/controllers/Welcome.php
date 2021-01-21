@@ -20,6 +20,17 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		echo "ini function index";
+
+
+		// $this->load->view('welcome_message');
 	}
+	public function nama($param1, $param2)
+	{
+
+	}
+
+
+
+
 }
